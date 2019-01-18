@@ -38,3 +38,6 @@ sysinfo.txt
 
 # Build System
 .gradle/
+
+# Misc
+Logs/
