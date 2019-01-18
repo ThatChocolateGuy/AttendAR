@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity
+    guid: e6a6fa04348cb45c9b0221eb19c946da
+  - enabled: 0
+    path: Assets/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity
+    guid: be567d47d3ab94b3badc5b211f535a24
+  - enabled: 0
+    path: Assets/GoogleARCore/Examples/ComputerVision/Scenes/ComputerVision.unity
+    guid: 5ef0f7f7f2c7b4285b707265348bbffd
+  - enabled: 0
+    path: Assets/CloudFaceDetection/DemoScenes/FaceDetectionDemo.unity
+    guid: 996c194d2af5dd3478a2c893cd573e26
+  - enabled: 1
+    path: Assets/CloudFaceDetection/DemoScenes/UserRecognitionScene0.unity
+    guid: cda3a613197af464a9995372646de19f
+  - enabled: 0
+    path: Assets/CloudFaceDetection/DemoScenes/UserRecognitionScene1.unity
+    guid: 56549c2d143441c439db2ed7b9c8e2c3
+  - enabled: 0
+    path: Assets/CloudUserManager/GroupManager/CloudGroupManager.unity
+    guid: 3774ecc921c6cb5448f643af6f6edf93
+  m_configObjects: {}
