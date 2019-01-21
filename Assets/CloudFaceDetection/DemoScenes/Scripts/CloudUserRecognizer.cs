@@ -44,7 +44,6 @@ public class CloudUserRecognizer : MonoBehaviour
 	// camera shot texture
 	private Texture2D texCamShot = null;
 
-
     void Start()
     {
         if (cameraShot)
@@ -54,7 +53,7 @@ public class CloudUserRecognizer : MonoBehaviour
 
 		hasCamera = imageSource != null && imageSource.HasCamera();
 
-        hintMessage = hasCamera ? "Tap on the camera image to take a shot" : "No camera found";
+        hintMessage = hasCamera ? "Tap on the camera image to take a shot" : "No Camera Found";
         
         SetHintText(hintMessage);
     }

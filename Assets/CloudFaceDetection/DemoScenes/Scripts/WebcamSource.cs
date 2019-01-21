@@ -19,7 +19,6 @@ public class WebcamSource : MonoBehaviour, ImageSourceInterface
 	// whether the output aspect ratio is set
 	private bool bTexResolutionSet = false;
 
-
 	public virtual void Awake () 
 	{
 		WebCamDevice[] devices = WebCamTexture.devices;
@@ -111,6 +110,7 @@ public class WebcamSource : MonoBehaviour, ImageSourceInterface
 	// Check if there is web camera
 	public bool HasCamera()
 	{
+		Debug.Log("Checking for Camera");
 		return webcamTex && !string.IsNullOrEmpty(webcamTex.deviceName);
 	}
 
@@ -121,7 +121,7 @@ public class WebcamSource : MonoBehaviour, ImageSourceInterface
         if (rawimage)
         {
 			rawimage.texture = tex;
-			//rawimage.material.mainTexture = tex;
+			// rawimage.material.mainTexture = tex;
         }
     }
 
