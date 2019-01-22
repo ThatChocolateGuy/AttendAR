@@ -346,7 +346,7 @@ public class CloudUserRecognizer : MonoBehaviour
 		Person person = userData.selectedUser.candidate.person;
 		StringBuilder sbPerson = new StringBuilder();
 		string groupId = userManager ? userManager.userGroupId : "";
-		string checkIn = System.DateTime.Now.ToString(); // CheckIn Timestamp on "Check In" Press
+		string checkIn = System.DateTime.Now.ToString("g"); // Timestamp on "Check In" Press
 		
 		person.userData += string.Format("|CheckIn={0}", checkIn);
 		sbPerson.Append(person.name).AppendLine().AppendLine();

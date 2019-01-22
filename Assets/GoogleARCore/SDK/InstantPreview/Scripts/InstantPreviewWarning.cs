@@ -38,7 +38,7 @@ namespace GoogleARCoreInternal
         [Tooltip(
             "Whether to show warning in play mode regarding Instant Preview's limited support " +
             "for touch based input.")]
-        public bool ShowEditorWarning = true;
+        public bool ShowEditorWarning = false;
 
         private string m_InstantPreviewDocumentationUrl =
             "https://developers.google.com/ar/develop/unity/instant-preview";
