@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using System.Globalization;
 
 
 public class CloudUserRecognizer : MonoBehaviour
@@ -345,16 +346,19 @@ public class CloudUserRecognizer : MonoBehaviour
 		CloudFaceManager cloudFaceManager = CloudFaceManager.Instance;
 		Person person = userData.selectedUser.candidate.person;
 		StringBuilder sbPerson = new StringBuilder();
+		CultureInfo culture = new CultureInfo("en-US");
+
 		string groupId = userManager ? userManager.userGroupId : "";
-		string checkIn = System.DateTime.Now.ToString("g"); // Timestamp on "Check In" Press
+		string checkIn = System.DateTime.Now.ToString("g", culture); // Timestamp on "Check In" Press
 		
 		person.userData += string.Format("|CheckIn={0}", checkIn);
-		sbPerson.Append(person.name).AppendLine().AppendLine();
-		sbPerson.Append(person.userData).AppendLine();
 		cloudFaceManager.UpdatePersonData(groupId, person);
-		sbPerson.Append("\nPerson Updated in Cloud").AppendLine();
-		Debug.Log(sbPerson.ToString());
 
+		sbPerson.Append(person.name).AppendLine()
+			.AppendLine(person.userData).AppendLine()
+			.AppendLine("Person Updated in Cloud").AppendLine();
+
+		Debug.Log(sbPerson.ToString());
 		panelInstance.gameObject.SetActive(false);
 		SetHintText(string.Format("{0} Checked In", person.name));
 
