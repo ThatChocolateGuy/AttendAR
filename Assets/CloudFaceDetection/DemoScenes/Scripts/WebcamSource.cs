@@ -22,6 +22,7 @@ public class WebcamSource : MonoBehaviour, ImageSourceInterface
 	public virtual void Awake () 
 	{
 		WebCamDevice[] devices = WebCamTexture.devices;
+		Debug.Log("Devices: " + devices.Length + "\n");
 
 		if (devices != null && devices.Length > 0)
 		{
@@ -110,7 +111,10 @@ public class WebcamSource : MonoBehaviour, ImageSourceInterface
 	// Check if there is web camera
 	public bool HasCamera()
 	{
-		Debug.Log("Checking for Camera");
+		StringBuilder sbCameraCheck = new StringBuilder();
+		sbCameraCheck.Append("Checking for Camera").AppendLine();
+		sbCameraCheck.Append("Device: " + (webcamTex ? webcamTex.deviceName : "Null")).AppendLine();
+		Debug.Log(sbCameraCheck.ToString());
 		return webcamTex && !string.IsNullOrEmpty(webcamTex.deviceName);
 	}
 

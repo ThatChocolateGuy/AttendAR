@@ -591,12 +591,10 @@ public class CloudUserManager : MonoBehaviour
 		{
 			try 
 			{
-				Debug.Log("GOCUG_Mark - try block");
 				personGroup = faceManager.GetPersonGroup(userGroupId);
 			} 
 			catch (Exception ex) 
 			{
-				Debug.Log("GOCUG_Mark - catch block");
 				Debug.Log(ex.Message);
 				Debug.Log("Trying to create user-group '" + userGroupId + "'...");
 
@@ -609,7 +607,6 @@ public class CloudUserManager : MonoBehaviour
 				Debug.Log("User-group '" + userGroupId + "' created.");
 			}
 			
-			Debug.Log("GOCUG_MarkInited");
 			initedGroupId = (personGroup != null) ? personGroup.personGroupId : string.Empty;
 		}
 	}

@@ -173,7 +173,7 @@ public class CloudUserRecognizer : MonoBehaviour
 
 				// show the identified users
 				ShowIdentityResult();
-				Debug.Log("ShowIdentityResult Triggered");
+				Debug.Log("ShowIdentityResult Triggered\n");
 			}
 			else
 			{
@@ -216,7 +216,7 @@ public class CloudUserRecognizer : MonoBehaviour
 
 		// clear current list
 		ClearIdentityResult();
-		Debug.Log("ClearIdentityResult Triggered - Clearing Current List");
+		Debug.Log("ClearIdentityResult Triggered - Clearing Current List\n");
 
 		// create the new list
 		if(faces != null)
@@ -344,14 +344,16 @@ public class CloudUserRecognizer : MonoBehaviour
 		CloudUserManager userManager = CloudUserManager.Instance;
 		CloudFaceManager cloudFaceManager = CloudFaceManager.Instance;
 		Person person = userData.selectedUser.candidate.person;
+		StringBuilder sbPerson = new StringBuilder();
 		string groupId = userManager ? userManager.userGroupId : "";
-		// CheckIn Timestamp on "Check In" Press
-		string checkIn = System.DateTime.Now.ToString();
+		string checkIn = System.DateTime.Now.ToString(); // CheckIn Timestamp on "Check In" Press
 		
 		person.userData += string.Format("|CheckIn={0}", checkIn);
-		Debug.Log(person.userData);
+		sbPerson.Append(person.name).AppendLine().AppendLine();
+		sbPerson.Append(person.userData).AppendLine();
 		cloudFaceManager.UpdatePersonData(groupId, person);
-		Debug.Log("Person Updated in Cloud");
+		sbPerson.Append("\nPerson Updated in Cloud").AppendLine();
+		Debug.Log(sbPerson.ToString());
 
 		panelInstance.gameObject.SetActive(false);
 		SetHintText(string.Format("{0} Checked In", person.name));
