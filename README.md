@@ -34,7 +34,7 @@ To build app, just select appropriate platform under 'File > Build Settings'
 
 <h5>General Interface</h5>
 
-![Interface](/Screenshots/Screenshot_20190122-154856_AttendAR.jpg?raw=true "Interface")
+![Interface](./Screenshots/Screenshot_20190122-154856_AttendAR.jpg?raw=true "Interface")
 
 <h5>User Creation</h5>
 
