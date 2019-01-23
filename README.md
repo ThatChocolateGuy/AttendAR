@@ -40,7 +40,7 @@ To build app, just select appropriate platform under 'File > Build Settings'
 
 ![User Creation](./Screenshots/Screenshot_20190122-155004_AttendAR.jpg?raw=true "User Creation")
 
-![User Creation Confirmation](/Screenshots/Screenshot_20190122-155049_AttendAR.jpg?raw=true "User Creation Confirmation")
+![User Creation Confirmation](./Screenshots/Screenshot_20190122-155049_AttendAR.jpg?raw=true "User Creation Confirmation")
 
 <h5>User Recognition</h5>
 
