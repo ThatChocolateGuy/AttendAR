@@ -38,30 +38,30 @@ To build app, just select appropriate platform under 'File > Build Settings'
 
 <h5>User Creation</h5>
 
-![User Creation](/Screenshots/Screenshot_20190122-155004_AttendAR.jpg?raw=true "User Creation")
+![User Creation](./Screenshots/Screenshot_20190122-155004_AttendAR.jpg?raw=true "User Creation")
 
 ![User Creation Confirmation](/Screenshots/Screenshot_20190122-155049_AttendAR.jpg?raw=true "User Creation Confirmation")
 
 <h5>User Recognition</h5>
 
-![User Recognition](/Screenshots/Screenshot_20190122-155138_AttendAR.jpg?raw=true "User Recognition")
+![User Recognition](./Screenshots/Screenshot_20190122-155138_AttendAR.jpg?raw=true "User Recognition")
 
 <h5>Resize Image Viewport</h5>
 
-![Resize Image Viewport](/Screenshots/Screenshot_20190122-155229_AttendAR.jpg?raw=true "Resize Image Viewport")
+![Resize Image Viewport](./Screenshots/Screenshot_20190122-155229_AttendAR.jpg?raw=true "Resize Image Viewport")
 
 <h5>User Login via Interactable Cards</h5>
 
-![User Login](/Screenshots/Screenshot_20190122-155302_AttendAR.jpg?raw=true "User Login")
+![User Login](./Screenshots/Screenshot_20190122-155302_AttendAR.jpg?raw=true "User Login")
 
 <h5>Built-In User Manager</h5>
 
-![User Manager](/Screenshots/Screenshot_20190122-155332_AttendAR.jpg?raw=true "User Manager")
+![User Manager](./Screenshots/Screenshot_20190122-155332_AttendAR.jpg?raw=true "User Manager")
 
 <h5>View and Modify User Details</h5>
 
-![User Details](/Screenshots/Screenshot_20190122-155458_AttendAR.jpg?raw=true "User Details")
+![User Details](./Screenshots/Screenshot_20190122-155458_AttendAR.jpg?raw=true "User Details")
 
 <h5>Delete Users</h5>
 
-![Delete User](/Screenshots/Screenshot_20190122-155531_AttendAR.jpg?raw=true "Delete User")
+![Delete User](./Screenshots/Screenshot_20190122-155531_AttendAR.jpg?raw=true "Delete User")
