@@ -10,15 +10,15 @@ You will need an [Azure Portal](https://portal.azure.com/) subscription (free) t
 
 - Open project and import necessary assets/libraries if prompted by Unity
 
-- In project explorer, navigate to 'CloudFaceDetection' > 'DemoScenes' and open 'UserRecognitionScene0' scene object
+- In project explorer, navigate to `'CloudFaceDetection' > 'DemoScenes'` and open `'UserRecognitionScene0'` scene object
 
-- Click on 'CloudFaceController' GameObject
+- Click on `'CloudFaceController'` GameObject
 
-- On 'Cloud Face Manager (Script)' component, enter your selected 'Face Service Location' and 'Face Subscription Key' provided by Azure Portal
+- On `'Cloud Face Manager (Script)'` component, enter your selected `'Face Service Location' and 'Face Subscription Key'` provided by Azure Portal
 
 - Run (play) scene (or build to ARCore compatible device running Android >= 8.0)
 
-- To build app, just select appropriate platform under 'File > Build Settings'
+- To build app, just select appropriate platform under `'File > Build Settings'`
 
 ## Screenshots
 
