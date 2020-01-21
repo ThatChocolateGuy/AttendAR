@@ -6,7 +6,7 @@ Built in Unity3D, utilizing [Azure Cognitive Services](https://azure.microsoft.c
 
 Project based on demos from Unity assets [Cloud Face Detection](https://assetstore.unity.com/packages/tools/ai/cloud-face-detection-54489) and [Cloud User Manager](https://assetstore.unity.com/packages/tools/ai/cloud-user-manager-61391) by [Innovative Smart Systems](https://assetstore.unity.com/publishers/18913).
 
-You will need an [Azure Portal](https://portal.azure.com/) subscription (free) to use the [Face](https://azure.microsoft.com/en-us/services/cognitive-services/face/) API.
+You will need an [Azure Portal](https://portal.azure.com/) subscription (free) to use the [Face](https://azure.microsoft.com/en-us/services/cognitive-services/face/) and [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) APIs.
 
 ## Usage
 
