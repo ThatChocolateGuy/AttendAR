@@ -1,6 +1,6 @@
 # AttendAR
 
-ARCore (Android) / desktop app which detects and recognizes student faces to record their "class attendance".
+ARCore (Android) / desktop app which detects and recognizes student faces to record their class attendance.
 
 Built in Unity3D, utilizing [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/directory/). 
 
@@ -22,7 +22,7 @@ You will need an [Azure Portal](https://portal.azure.com/) subscription (free) t
 
 - To build app, just select appropriate platform under `'File > Build Settings'`
 
-## Screenshots
+## UI / UX
 
 <h5>General Interface</h5>
 
